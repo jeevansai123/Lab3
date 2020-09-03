@@ -1,0 +1,34 @@
+arr1=[1,2,3,4,5,6,7,8];     
+arr2=[None]*len(arr1);      
+for x in range(0, len(arr1)):    
+    arr2[x] = arr1[x];         
+print("Elements of First array: ");    
+for x in range(0, len(arr1)):    
+   print(arr1[x]),    
+     
+print();    
+print("Elements of Second array: ");    
+for x in range(0,len(arr2)):    
+   print(arr2[x]),  
+
+OUTPUT:
+
+Elements of First array: 
+1
+2
+3
+4
+5
+6
+7
+8
+
+Elements of Second array: 
+1
+2
+3
+4
+5
+6
+7
+8
